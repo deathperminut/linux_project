@@ -93,8 +93,6 @@ function updateChart() {
     });
 }
 
-// Call the function to load and update the chart initially
-updateChart();
 
 // Set up a timer to reload the chart every two seconds
-//setInterval(updateChart, 2000);
+setInterval(updateChart, 2000);
